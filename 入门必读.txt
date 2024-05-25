@@ -1,29 +1,29 @@
 
 
-1. ±ê×¼¿ª·¢»·¾³£º
+1. æ ‡å‡†å¼€å‘ç¯å¢ƒï¼š
     eclipse + maven + jdk7 + tomcat7 + mysql
 	
-2. ÊÖ¹¤Ö´ĞĞ³õÊ¼»¯SQL½Å±¾
+2. æ‰‹å·¥æ‰§è¡Œåˆå§‹åŒ–SQLè„šæœ¬
     docs/db/jeecg_4.0_mysql.sql
-	×¢Òâ£º ±ØĞëÊÖ¹¤Ö´ĞĞdoc\dbÏÂµÄÊı¾İ¿â½Å±¾
+	æ³¨æ„ï¼š å¿…é¡»æ‰‹å·¥æ‰§è¡Œdoc\dbä¸‹çš„æ•°æ®åº“è„šæœ¬
 	
-3. ÈëÃÅ¿ª·¢»·¾³´î½¨
+3. å…¥é—¨å¼€å‘ç¯å¢ƒæ­å»º
    http://idoc.jeecg.com/1275933
 
-4. JEECG³£¼ûÎÊÌâÌù(ÈëÃÅ±Ø¿´)
+4. JEECGå¸¸è§é—®é¢˜è´´(å…¥é—¨å¿…çœ‹)
     http://bbs.jeecg.com/forum.php?mod=viewthread&tid=1830&extra=page%3D1
 	
-5. JEECGÔÚÏßWiki
-    http://idoc.jeecg.com
+5. JEECGåœ¨çº¿Wiki
+    http://jeecg3.mydoc.io
    
-6. JeecgĞÂ°æÊÓÆµ½Ì³Ì
+6. Jeecgæ–°ç‰ˆè§†é¢‘æ•™ç¨‹
     https://edu.csdn.net/lecturer/929
 	
-7. ¼¼Êõ½»Á÷  
-   QQ½»Á÷Èº£º ¢ß286263896¡¢ÆäËûÈº(Âú)
-   ¹Ù·½ÍøÕ¾£º http://www.jeecg.com
-   ¼¼ÊõÂÛÌ³£º http://bbs.jeecg.com
-   ¹Ù·½²©¿Í£º http://blog.csdn.net/zhangdaiscott
+7. æŠ€æœ¯äº¤æµ
+   QQäº¤æµç¾¤ï¼š â‘¦286263896ã€å…¶ä»–ç¾¤(æ»¡)
+   å®˜æ–¹ç½‘ç«™ï¼š http://www.jeecg.com
+   æŠ€æœ¯è®ºå›ï¼š http://bbs.jeecg.com
+   å®˜æ–¹åšå®¢ï¼š http://blog.csdn.net/zhangdaiscott
 
-8.·Çmaven°æ±¾ÏÂÔØ£¨Õë¶Ô²»ÊìÏ¤mavenµÄÍ¬Ñ§£©
+8.émavenç‰ˆæœ¬ä¸‹è½½ï¼ˆé’ˆå¯¹ä¸ç†Ÿæ‚‰mavençš„åŒå­¦ï¼‰
    https://github.com/zhangdaiscott/jeecg-nomaven

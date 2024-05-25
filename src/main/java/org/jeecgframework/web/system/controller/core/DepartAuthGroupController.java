@@ -31,7 +31,7 @@ import org.jeecgframework.core.util.ResourceUtil;
 import org.jeecgframework.core.util.StringUtil;
 import org.jeecgframework.core.util.oConvertUtils;
 import org.jeecgframework.minidao.pojo.MiniDaoPage;
-import org.jeecgframework.p3.core.page.SystemTools;
+//import org.jeecgframework.p3.core.page.SystemTools;
 import org.jeecgframework.tag.core.easyui.TagUtil;
 import org.jeecgframework.tag.vo.easyui.ComboTreeModel;
 import org.jeecgframework.web.system.dao.DepartAuthGroupDao;
@@ -300,12 +300,12 @@ public class DepartAuthGroupController extends BaseController {
 			if(userName.equals("admin")) {
 
 				MiniDaoPage<Map<String,Object>> list = this.departAuthGroupService.getDepartAuthGroupList(0, 50);
-				departAuthGroupList= SystemTools.convertPaginatedList(list);
+//				departAuthGroupList= SystemTools.convertPaginatedList(list);
 				chkDepartAuthGroupList = this.departAuthGroupService.chkDepartAuthGroupList(userName);
 				recursiveGroup(dataList, departAuthGroupList,chkDepartAuthGroupList,"0");
 			} else {
 				MiniDaoPage<Map<String,Object>> list = this.departAuthGroupService.getDepartAuthGroupByUserId(0, 50, userName);
-				departAuthGroupList = SystemTools.convertPaginatedList(list);
+//				departAuthGroupList = SystemTools.convertPaginatedList(list);
 				chkDepartAuthGroupList = this.departAuthGroupService.chkDepartAuthGroupList(userName);
 
 				recursiveGroup(dataList, departAuthGroupList,chkDepartAuthGroupList,"0");
@@ -339,13 +339,13 @@ public class DepartAuthGroupController extends BaseController {
 			if(userName.equals("admin")) {
 
 				MiniDaoPage<Map<String,Object>> list = this.departAuthGroupService.getDepartAuthGroupList(0, 50);
-				departAuthGroupList = SystemTools.convertPaginatedList(list);
+//				departAuthGroupList = SystemTools.convertPaginatedList(list);
 				String chkSql = "select r.* from t_s_depart_auth_group dag,t_s_role r where dag.id = r.depart_ag_id";
 				chkDepartAuthGroupList = this.systemService.findForJdbc(chkSql);
 				recursiveGroup(dataList, departAuthGroupList,chkDepartAuthGroupList,"1");
 			} else {
 				MiniDaoPage<Map<String,Object>> list = this.departAuthGroupService.getDepartAuthRole(0, 50, userName);
-				departAuthGroupList = SystemTools.convertPaginatedList(list);
+//				departAuthGroupList = SystemTools.convertPaginatedList(list);
 				chkDepartAuthGroupList = this.departAuthGroupService.chkDepartAuthRole();
 
 				recursiveGroup(dataList, departAuthGroupList,chkDepartAuthGroupList,"1");

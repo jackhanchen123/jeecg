@@ -70,7 +70,7 @@
         <!-- pinyin4j -->
 		<pinyin4j.version>2.5.1</pinyin4j.version>
         <!-- jeasypoi 工具类  -->
-        <jeasypoi.version>2.2.0</jeasypoi.version>
+        <jeasypoi.version>2.1.9</jeasypoi.version>
         <!-- cxf webservice -->
 		<cxf.version>3.0.2</cxf.version>
 		<!-- jacob -->
@@ -267,12 +267,19 @@
 		</dependency>
 		
 		<!--  mysql -->
-		<dependency>
+		<!--<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>${mysql.version}</version>
 			<scope>runtime</scope>
+		</dependency>-->
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.17</version>
 		</dependency>
+
 		<!--  sqlserver 2008-->
 		<dependency>
 		    <groupId>com.microsoft.sqlserver</groupId>
@@ -564,7 +571,7 @@
 		
 		<!-- Jeecg Plugin begin -->
 		<!-- p3 core -->
-		<dependency>
+		<!--<dependency>
 			<groupId>org.jeecgframework.p3</groupId>
 			<artifactId>jeecg-p3-core-api</artifactId>
 			<version>${jeecg-p3-core.version}</version>
@@ -574,7 +581,7 @@
 			<artifactId>jeecg-p3-core-ui</artifactId>
 			<version>${jeecg-p3-core.version}</version>
 		</dependency>
-		<!-- 插件：Demo -->
+		&lt;!&ndash; 插件：Demo &ndash;&gt;
 		<dependency>
 			<groupId>org.jeecgframework.p3</groupId>
 			<artifactId>jeecg-p3-biz-demo</artifactId>
@@ -587,7 +594,7 @@
 			</exclusions>
 		</dependency>
 		
-		 <!-- 插件：在线聊天 -->
+		 &lt;!&ndash; 插件：在线聊天 &ndash;&gt;
 		<dependency>
 			<groupId>org.jeecgframework.p3</groupId>
 			<artifactId>jeecg-p3-biz-chat</artifactId>
@@ -600,7 +607,7 @@
 			</exclusions>
 		</dependency>
 		
-		<!-- 插件: 我的邮箱-->
+		&lt;!&ndash; 插件: 我的邮箱&ndash;&gt;
 		<dependency>
 			<groupId>org.jeecgframework.p3</groupId>
 			<artifactId>jeecg-p3-biz-mail</artifactId>
@@ -611,7 +618,7 @@
 					<artifactId>jeecg-p3-start-quick</artifactId>
 				</exclusion>
 			</exclusions>
-		</dependency>
+		</dependency>-->
 		<!-- Jeecg Plugin end -->
 		
 		<!-- update-begin-author:taoYan date:20180828 for:jxls导出excel -->

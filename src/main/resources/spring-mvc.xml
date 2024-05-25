@@ -223,6 +223,6 @@
 	<!-- 配置 redis -->
     <import resource="classpath:redis.xml" />
 	<!-- Jeecg 插件开发 -->
-	<bean class="org.jeecgframework.p3.core.utils.common.ApplicationContextUtil"></bean>
-	<import resource="classpath:config/spring-config-p3.xml" />
+<!--	<bean class="org.jeecgframework.p3.core.utils.common.ApplicationContextUtil"></bean>-->
+<!--	<import resource="classpath:config/spring-config-p3.xml" />-->
 </beans>
