@@ -27,3 +27,4 @@
 
 8.非maven版本下载（针对不熟悉maven的同学）
    https://github.com/zhangdaiscott/jeecg-nomaven
+测试push后撤回
